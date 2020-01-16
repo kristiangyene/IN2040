@@ -1,0 +1,7 @@
+
+
+
+(define (p-cons x y)
+  (lambda (proc) (proc x y)))
+
+(p-cons 2 3)
